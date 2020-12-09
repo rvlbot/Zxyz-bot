@@ -55,7 +55,7 @@ Script ini di modifikasi sama saya sendiri Aris187 ID.
 > termux-setup-storage
 > pkg install git && pkg install tesseract && pkg install wget && pkg install ffmpeg && pkg install nodejs
 > apt update && apt upgrade
-> git clone https://github.com/A187ID/AR15BOT
+> git clone https://github.com/rvlbot/Zxyz-bot
 > cd AR15BOT
 > npm i -g cwebp && npm i node-tesseract-ocr && npm i -g ytdl && npm i  && npm i got && node index js
 > Tinggal scan kode qr yeee...done
@@ -63,7 +63,7 @@ Script ini di modifikasi sama saya sendiri Aris187 ID.
 
 ## FEATURES  <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif" width="29px">
 
-| AR15BOT      |                   Feature        |
+| Zxyz bOt      |                   Feature        |
 | :-----------: | :------------------------------: |
 |       ✅       | Sticker Creator                  |
 |       ✅       | Nulis                            |
