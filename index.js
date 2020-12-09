@@ -280,7 +280,7 @@ if (text.includes('!nulis')){
       imageToBase64(res.data.result)
         .then(
           (ress) => {
-            conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
+            conn.sendMessage(id, '[WAIT] Bot Lagi Nulis Ni❗', MessageType.text)
             var buf = Buffer.from(ress, 'base64')
             conn.sendMessage(id, buf, MessageType.image)
         })
@@ -293,7 +293,7 @@ if (text.includes('!tts')){
       audioToBase64(res.data.result)
         .then(
           (ress) => {
-            conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
+            conn.sendMessage(id, '[WAIT] Sedang bot proses❗', MessageType.text)
             var buf = Buffer.from(ress, 'base64')
             conn.sendMessage(id, buf, MessageType.audio)
         })
