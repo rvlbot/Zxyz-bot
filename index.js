@@ -8,12 +8,12 @@
 * ARIS187 ID
 * BOLEH UBAH TAPI KECUALI INFO!!!
 */
-const A187 = 'Zxyz Bot'; // JANGAN UBAH-UBAH INFO!!!
+const A187 = '😎Zxyz Bot😎'; // JANGAN UBAH-UBAH INFO!!!
 const instagram = 'https://instagram.com/_its.rival'; // JANGAN UBAH-UBAH INFO!!!
 const nomer = 'Wa.me/+6285762102148'; // JANGAN UBAH-UBAH INFO!!!
 const aktif = 'Tergantung jaringan'; // JANGAN UBAH-UBAH INFO!!!
 const groupwhatsapp = 'BELUM ADA'; // JANGAN UBAH-UBAH INFO!!!
-const youtube = 'Call Me Rival'; // JANGAN UBAH-UBAH INFO!!!
+const youtube = 'https://youtu.be/hd6tDSnvohw'; // JANGAN UBAH-UBAH INFO!!!
 //A187ID
 const qrcode = require("qrcode-terminal");
 const moment = require("moment");
@@ -64,7 +64,7 @@ conn.on('qr', qr =>
    {
       small: true
    });
-   console.log(`[ ${moment().format("HH:mm:ss")} ] AR15BOT ready scan now!`);
+   console.log(`[ ${moment().format("HH:mm:ss")} ] Zxyz Bot Scan Qrnya Cok :v`);
 });
 
 conn.on('credentials-updated', () =>
@@ -83,7 +83,7 @@ conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @_sadboy.ig`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @_its.rival`)
 })
 
 conn.on('message-new', async(m) =>
@@ -932,22 +932,24 @@ else if (text == '!foto'){
 conn.sendMessage(id, 'kirim !foto cewek/cowok\n\nContoh: !foto cewek' ,MessageType.text);
 }
 else if (text == '#help'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾AR15BOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/_sadboy.ig_' ,MessageType.text);
+conn.sendMessage(id, 'Jangan Lupa Follow Instagram Saya _its.rival 😎' ,MessageType.text);
 }
 else if (text == '#menu1'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾AR15BOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/_sadboy.ig_' ,MessageType.text);
+conn.sendMessage(id, 'Jangan Lupa Follow Instagram Saya _its.rival 😎' ,MessageType.text);
 }
 else if (text == '#menu'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾AR15BOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/_sadboy.ig_' ,MessageType.text);
+conn.sendMessage(id, 'Commandnya *#help* Gan...'  ,MessageType.text);
+		
+		
 }
-else if (text == '#menu2'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾AR15BOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/_sadboy.ig_' ,MessageType.text);
+else if (text == '!igmimin'){
+conn.sendMessage(id, '*_its.rival*' ,MessageType.text);
 }
-else if (text == '#menu3'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾AR15BOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/_sadboy.ig_' ,MessageType.text);
+else if (text == '!sticker'){
+conn.sendMessage(id, 'Kirim Gambar Dengan Command *!sticker*' ,MessageType.text);
 }
 else if (text == '#menu4'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾AR15BOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/_sadboy.ig_' ,MessageType.text);
+conn.sendMessage(id, 'Jangan Lupa Follow Instagram Saya _its.rival 😎' ,MessageType.text);
 }
    if (messageType == 'imageMessage')
    {
